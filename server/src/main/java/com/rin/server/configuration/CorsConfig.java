@@ -18,12 +18,6 @@ public class CorsConfig {
         // Allow credentials (cookies/authorization headers)
         config.setAllowCredentials(true);
 
-        // Your Vite dev origins (add/remove as needed)
-//        config.setAllowedOrigins(List.of(
-//                "http://localhost:5173",
-//                "http://127.0.0.1:5173"
-//        ));
-
         // If you want to allow all origins in LAN/testing, use pattern instead:
          config.setAllowedOriginPatterns(List.of("*"));
 
