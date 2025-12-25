@@ -37,7 +37,7 @@ services:
       dockerfile: Dockerfile
     container_name: client_project_task_board
     ports:
-      - "5173:80"
+      - "5174:80"
     depends_on:
       - server
     networks:
